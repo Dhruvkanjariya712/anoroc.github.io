@@ -5,32 +5,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Exam registration form</title>
 </head>
 
-<body>
-    <h4><pre>
-        <p style="color: rgb(0, 153, 255);">
-            કોવિડ-19 અલગ અલગ લોકોમાં અલગ અલગ રીતે અસર કરે છે. મોટા ભાગના સંક્રમિત લોકોમાં હળવીથી મધ્યમ બિમારી થશે અને હોસ્પિટલમાં દાખલ થયા વિના સાજા થઈ જશે.
-            સૌથી સામાન્ય લક્ષણો:
-            તાવ
-            સૂકી ઉધરસ
-            થાક
-            ઓછા સામાન્ય લક્ષણો:
-            દુખાવો અને દર્દ
-            ગળામાં ખરાશ
-            ઝાડા
-            આંખો આવવી
-            માથામાં દુખાવો
-            સ્વાદ અથવા ગંધની ખોટ
-            ત્વચા પર ફોલ્લી અથવા હાથ કે પગની આંગળીઓનો રંગ બદલાઈ જવો
-            જે વાયરસથી કોવિડ-19 થાય છે તે મુખ્ય રીતે અસરગ્રસ્ત વ્યક્તિની ઉધરસ, છીંક અથવા ઉચ્છવાસની વખતે જનરેટ થતા ડ્રોપલેટ (છાંટા) મારફતે પ્રસરે છે. 
-            આ ડ્રોપલેટ હવામાં લટકી રહેવા માટે ખૂબ ભારે હોય છે અને તેથી ઝડપથી જમીન પર અથવા કોઈ સપાટી પર પડી જાય છે.
-            જો તમે કોવિડ-19 થી સંક્રમિત કોઈ વ્યક્તિની નજીક હોવ તો વાયરસયુક્ત વાતાવરણમાં શ્વાસ લેવાથી અથવા કોઈ સંક્રમિત સપાટીને સ્પર્શ કર્યા પછી તમારી આંખ, નાક અથવા મોઢાને અડવાથી તમને ચેપ લાગી શકે છે.</p>
-            <img src="https://th.bing.com/th/id/OIP.LB_BwzIvrBSjsuIPZNCSKgHaHb?w=178&h=180&c=7&o=5&dpr=1.5&pid=1.7" alt="corona"
-        height="800" width="850">
-    </pre></h4>
-    
+<body style="color: darkblue;background-color: burlywood;">
+    <center>
+        <h1>Exam registration</h1>
+        <br> <br>
+        <form>
+            <label> Firstname: </label>
+            <input type="text" name="firstname" size="20" placeholder="First name"> <br> <br>
+            <label> Middlename: </label>
+            <input type="text" name="middlename" size="20" placeholder="Second name"> <br> <br>
+            <label> Lastname: </label>
+            <input type="text" name="lastname" size="20" placeholder="Last name"> <br> <br>
+            <label> Enrl no: </label>
+            <input type="text" name="lastname" size="20" placeholder="Enrl no"> <br> <br>
+
+            <label>
+                Course :
+            </label>
+            <select>
+                <option value="bsc">BSC</option>
+                <option value="msc">MSC</option>
+                <option value="b.Tech">B.Tech</option>
+                <option value="phd">P.hd</option>
+            </select>
+            <br><br>
+            <label for="">
+                <input type="radio" name="M">Male
+                <input type="radio" name="M">Female
+                <input type="radio" name="M">Other
+
+            </label>
+            <br><br>
+            <textarea cols="40" rows="10" value="address" placeholder="Address"></textarea>
+
+            <br> <br>
+            Email:
+            <input type="email" id="email" name="email" /> <br>
+            <br> <br>
+            Password:
+            <input type="Password" id="pass" name="pass"> <br>
+            <br> <br>
+            Re-type password:
+            <input type="Password" id="repass" name="repass"> <br> <br>
+            <input type="checkbox" name="" id="">I agree to give my consent
+            <br><br>
+            <input type="button" value="Submit" />
+            <input type="button" value="reset" /><br><br>
+        </form>
+    </center>
+
 </body>
 
 </html>
